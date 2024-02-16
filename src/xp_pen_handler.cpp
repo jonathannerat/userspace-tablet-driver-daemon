@@ -35,6 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "deco_01v2.h"
 #include "star_g430s.h"
 #include "star_g640.h"
+#include "star_g640s.h"
 #include "ac19.h"
 #include "artist_12.h"
 #include "deco_03.h"
@@ -67,6 +68,7 @@ xp_pen_handler::xp_pen_handler() {
     addHandler(new deco_mini7());
     addHandler(new star_g430s());
     addHandler(new star_g640());
+    addHandler(new star_g640s());
     addHandler(new ac19());
     addHandler(new deco_02());
     addHandler(new deco_large());
